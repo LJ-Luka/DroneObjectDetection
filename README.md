@@ -11,4 +11,4 @@ My next line of action was to pass in a fixed weight inference graph to the open
 The final phases involved looping and reading the current video frame as an image array vector using the video object mentioned earlier. This image is then passed as a parameter to the DNN (deep neural network) detection function, using a confidence threshold of 60%. An object wouldn’t always look 100% like itself due to noise and other factors, so my choice of threshold seems reasonable. This function returns a classId, confidences, and boxes bounding the object detected. The classID is an object ID that allows us to group key points to an object. With the result of the detection, I’m able to select the name of the object using the class ID and successfully display it on the current video frame.  
 
 
-Cpmpleted with guidance from Murtaza's workshop
+Completed with guidance from Murtaza's workshop
